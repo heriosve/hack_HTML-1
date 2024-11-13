@@ -1,0 +1,113 @@
+:root {
+    --bg-yellow: #FFBD59;
+    --h1-color: #B88940;
+    --pub-color: #B88940;
+}
+
+body {
+    margin-top: 4%;
+}
+
+header {
+    font-family: "Ruda", sans-serif;
+    text-align: center;
+    line-height: 5px;
+}
+
+.line {
+    background-color: black;
+    border-radius: 5px;
+    width: 50px;
+    height: 4px;
+    margin: auto;
+}
+
+h1 {
+    color: var(--h1-color);
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: "Catamaran", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    height: 30vh;
+    width: 98vw;
+    flex-direction: column;
+    padding-top: 5%;
+    gap: 0;
+}
+
+.fondo {
+    margin-top: 2%;
+    position: absolute;
+    display: inherit;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    z-index: 3;
+    row-gap: 8%;
+}
+
+.carruzel {
+    height: 100%;
+    width: 100%;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    z-index: 4;
+}
+
+.precios {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    z-index: 4;
+    line-height: 0px;
+}
+
+.texto {
+    font-family: "Catamaran", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.caja3 {
+    background-color: var(--bg-yellow);
+    padding: auto;
+    height: 8%;
+    width: 100%;
+}
+
+.imagen {
+    height: 100%;
+    width: 8%;
+}
+
+footer {
+    padding-top: 5%;
+    text-align: center;
+    line-height: 0px;
+}
+
+.publicidad {
+    color: var(--pub-color);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    text-transform: uppercase;
+}

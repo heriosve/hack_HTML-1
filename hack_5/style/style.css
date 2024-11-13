@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    min-height: 100vh;
+    min-width: 98vw;
+    font-family: "Arimo", serif;
+}
+
+header {
+    margin: 2rem;
+}
+
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header ul li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.logo {
+    float: left;
+    background: #7ED957;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.opcion {
+    font-size: x-large;
+    padding-left: 2rem;
+}
+
+.identificacion {
+    float: inline-end;
+    font-size: medium;
+    padding-right: 3rem;
+}
+
+.slogan {
+    position: relative;
+    height: 34vh;
+    width: inherit;
+    color: whitesmoke;
+    background-image: url("../img/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    padding-top: 5rem;
+    padding-left: 4.5rem;
+}
+
+.slogan-text1 {
+    text-indent: 0.8rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 0.5rem;
+}
+
+.slogan-text1 span {
+    background-color: #00BF63;
+    -webkit-box-decoration-break: slice;
+    box-decoration-break: slice;
+}
+
+.slogan-text2 {
+    position: relative;
+    top: 2rem;
+    text-indent: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 0.3rem;
+}
+
+.slogan-text2 span {
+    background-color: black;
+    -webkit-box-decoration-break: slice;
+    box-decoration-break: slice;
+}
+
+.productos-text {
+    height: 6vh;
+    margin-top: 6vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.productos-text h3 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.productos-text h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 0;
+}
+
+.carruzel {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.item {
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 90%;
+    align-items: center;
+}
+
+.item-title {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 0rem;
+    display : flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.icon-image {
+    margin-right: 10px;
+    margin-right: 10px;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.item-desc {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 0.9rem;
+    margin-left: 1rem;
+}
+
+footer ul {
+    color: #EEEEEE;
+    background-color: #00BF63;
+    line-height: 3rem;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer ul li {
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: inline;
+    padding-left: 3rem;
+}

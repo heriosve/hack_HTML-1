@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    min-height: 100vh;
+    min-width: 98vw;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    background: #00BF63;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    align-items: center;
+}
+
+.logo span {
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.slogan {
+    position: relative;
+    height: 30vh;
+    width: inherit;
+    background-image: url("../img/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    padding-top: 0.8rem;
+    padding-left: 4.2rem;
+}
+
+.slogan-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    width: 4rem;
+    border-radius: 25px 25px;
+    background-color: black;
+}
+
+.slogan-text span {
+    color: whitesmoke;
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+
+.slogan-text1 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.4rem;
+}
+
+.slogan-text2 {
+    position: relative;
+    font-size: 0.6rem;
+    font-weight: 600;
+    line-height: 0.3rem;
+}
+
+.productos-text {
+    height: 6vh;
+    margin-top: 6vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.productos-text h3 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.productos-text h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 0;
+}
+
+.carruzel {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.item {
+    flex: 1 1 26%;
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 48%;
+    align-items: center;
+}
+
+.item-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 0rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.icon-image {
+    margin-right: 10px;
+    margin-right: 10px;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.item-desc {
+    font-size: 0.6rem;
+    font-weight: 300;
+    line-height: 0.9rem;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin-left: 1.1rem;
+}
+
+.item-desc span {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+footer {
+    background-color: black;
+    padding-top: 0.7rem;
+    padding-left: 4rem;
+    height: 2.4rem;
+}
+
+.ellipse-button {
+    display: inline-block;
+    background-color: #00BF63;
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px / 25px;
+    /* Creates an ellipse shape */
+    border: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+}
+
+.ellipse-button:hover {
+    background-color: #10422a;
+}
+
+/* 2 columns */
+@media (min-width: 600px) and (max-width: 899px) {
+    .slogan {
+        padding-top: 0.3rem;
+        padding-left: 2rem;
+    }
+
+    .item {
+        flex: 1 1 50%;
+    }
+
+    .slogan-text1 {
+        font-size: 0.9rem;
+    }
+
+    .item-title {
+        font-size: 1rem;
+        margin-left: 0.8rem;
+    }
+}
+
+/* 1 column */
+@media (max-width: 599px) {
+    .slogan {
+        padding-top: 0.1rem;
+        padding-left: 1rem;
+    }
+
+    .item {
+        flex: 1 1 100%;
+    }
+
+    .slogan-text1 {
+        font-size: 0.7rem;
+    }
+
+    .item-title {
+        font-size: 1.2rem;
+        margin-left: 0.6rem;
+    }
+}
+
+

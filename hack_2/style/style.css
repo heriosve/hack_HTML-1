@@ -1,0 +1,42 @@
+:root {
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+.caja1 {
+    background-color: var(--bg-blue);
+    height: 112px;
+}
+
+.caja2 {
+    background-color: var(--bg-wine);
+    height: 202px;
+    margin-bottom: 12px;
+    float: inline-start;
+    width: 100%;
+}
+
+.caja3 {
+    background-color: var(--bg-wine);
+    height: 62px;
+    width: 80%;
+    float: inline-start;
+    margin-bottom: 12px;
+}
+
+.caja4 {
+    background-color: var(--bg-wine);
+    height: 52px;
+    width: 80%;
+    float: inline-end;
+    margin-inline-end: 10%;
+}
